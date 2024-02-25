@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>job application</title>
+</head>
+<body>
+    <form>
+        <h1>JOB APPLICATION FORM</h1>
+        <label for="name">NAME:</label>
+        <input type="text"id="name">
+        <br><br>
+        <label for="email">EMAIL:</label>
+        <input type="email"id="email">
+        <br><br>
+        <label for="phone">PHONE:</label>
+        <input type="tel" id="phone">
+        <br><br>
+        <label for="fileupload">Resume: </label>
+        <input type="file"id="fileupload">
+        <br><br>
+        <label for="counter">Experience: </label>
+        <input type="number"id="counter" min="0" max="50">
+<br><br>
+       <fieldset>
+        <legend>Skills</legend>
+        <label for="HTML">HTML</label>
+        <input type="checkbox" id ="HTML">
+        <br><br>
+        <label for="CSS">CSS</label>
+        <input type="checkbox" id ="CSS"> 
+        <br><br>
+        <label for="JAVASCRIPT">JAVASCRIPT</label>
+        <input type="checkbox" id ="JAVASCRIPT">
+       </fieldset>
+       <br><br>
+       <label for="dropdpwn">Highest Qualification</label>
+       <select name="dropdown" id="dropdown">
+        <option value="MCA">MCA</option>
+        <option value="BTECH">BTECH</option>
+        <option value="MBA">MBA</option>
+        <option value="MTECH">MTECH</option>
+       </select>
+       <br><br>
+       <fieldset>
+        <legend>Availibility</legend>
+<label for="avail2">Fulltime</label>
+<input type="radio" id="avail2" name="radio" >  <!-- if you want to select only one radiobutton ata time then you have to make the type and name is same -->
+<br>
+<label for="avail1">Parttime</label>
+<input type="radio" id="avail1" name="radio"  >
+
+</fieldset>
+<br><br>
+<label for="area">Additional Comments:</label>
+<br>
+<textarea name="addtional" id="area" cols="30" rows="10"></textarea>
+<br><br>
+<input type="submit" value="Submit">
+<input type="button" value="Preview">
+
+    </form>
+</body>
+</html>

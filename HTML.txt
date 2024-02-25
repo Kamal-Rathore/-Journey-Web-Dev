@@ -1,0 +1,52 @@
+HTML:- 
+HTML stands for Hyper Text Markup Language
+HTML is the standard markup language for creating Web pages
+HTML describes the structure of a Web page
+HTML consists of a series of elements
+HTML elements tell the browser how to display the content
+tim berners lee invented the html.
+
+The <!DOCTYPE html> declaration defines that this document is an HTML5 document
+The <html> element is the root element of an HTML page
+The <head> element contains meta information about the HTML page
+The <title> element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)
+The <body> element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.
+The <h1> element defines a large heading
+The <p> element defines a paragraph
+
+ Some HTML elements have no content (like the <br> element). These elements are called empty elements. Empty elements do not have an end tag!
+WEB BROWSER:-The purpose of a web browser is to read HTML documents and display them correctly.A browser does not display the HTML tags, but uses them to determine how to display the document.
+HYPERTEXT:- Hypertext" refers to links that connect web pages to one another, either within a single website or between websites
+MARKUP LANGUAGE:-A markup language is a set of rules that defines how the layout and presentation of text and images should appear in a digital document.
+
+Features of the html:-
+It is easy to learn and easy to use.
+It is platform-independent.
+Images, videos, and audio can be added to a web page.
+Hypertext can be added to the text.
+It is a markup language.
+
+HTML ELEMENTS:-An HTML element is defined by a start tag, some content, and an end tag
+
+HTML ATTRIBUTES:-HTML attributes provide additional information about HTML elements.All HTML elements can have attributes.The <a> tag defines a hyperlink. The href attribute specifies the URL of the page the link goes to.
+HTML PARAGRAPH:-A paragraph always starts on a new line, and browsers automatically add some white space (a margin) before and after a paragraph.
+
+HTML FORMATTING TAGS:- <b> - Bold text
+<strong> - Important text
+<i> - Italic text
+<em> - Emphasized text
+<mark> - Marked text
+<small> - Smaller text
+<del> - Deleted text
+<ins> - Inserted text
+<sub> - Subscript text
+<sup> - Superscript text
+
+HTML LINKS:-Links are found in nearly all web pages. Links allow users to click their way from page to page.
+TARGET ATTRIBUTE:- The target attribute specifies where to open the linked document.
+_blank	Opens the linked document in a new window or tab
+_self	Opens the linked document in the same frame as it was clicked (this is default)
+_parent	Opens the linked document in the parent frame
+_top	Opens the linked document in the full body of the window
+
+HTML IMAGES:-The <img> tag is empty, it contains attributes only, and does not have a closing tag.The HTML <img> tag is used to embed an image in a web page.
