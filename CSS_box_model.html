@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS box model</title>
+    <style>
+
+        *{
+            /*universal selector */
+            padding:0;
+            margin:0;
+        }
+h1{
+    background-color: aqua;
+    border-style: solid;
+    border-width: 10px;
+    border-color: aquamarine;
+    border-radius: 10px; 
+    width: 350px;
+    height:200px
+
+}
+/* <!-- border radius is used for the make the sharp corners rounded--> */
+#para1{
+    background-color:pink;
+    border-style: solid;
+    border-width: 10px;
+    border-color:blueviolet;
+    border-radius: 10px; 
+    width: 350px;
+    height:200px;
+    padding:10px;
+    margin-left: 20px;
+}
+.para2{
+    background-color:mediumvioletred;
+    border-style: solid;
+    border-width: 10px;
+    border-color:midnightblue;
+    border-radius: 10px; 
+    width: 350px;
+    height:200px;
+    padding: 20px;
+    margin-top:20px;
+
+    
+}
+#para3{
+    background-color:dodgerblue;
+    border-style: solid;
+    border-width: 10px;
+    border-color:darksalmon;
+    border-radius: 10px; 
+    width: 350px;
+    height:200px;
+    padding:10px;
+    margin-bottom:120px;
+   
+}
+    </style>
+</head>
+<body>
+    <h1>WELCOME MR. KAMAL SINGH RATHORE</h1>
+    <p id="para1">Lorem ipsum dolor sit amet. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus voluptatem deleniti nemo amet? Nisi eum quibusdam delectus architecto ex quia!</p>
+    <P class="para2" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, in? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia aspernatur maiores nesciunt porro quo et fugiat, quasi rem quisquam! Asperiores.</P>
+    <P id="para3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ex similique cum perspiciatis rem beatae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit harum excepturi quibusdam sed aperiam fugiat quia explicabo, consectetur soluta ducimus.</P>
+<!-- box model renders all your text in the rectangular format not matter how the shape of your content is -->
+<!-- box has content,padding,margin,border -->
+
+
+
+
+</body>
+</html>

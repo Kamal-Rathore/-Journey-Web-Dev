@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position_properties</title>
+    <style>
+        img{
+            margin:10px;
+         /* img is inline element*/
+        }
+        div{
+            border: 5px solid;
+            position: relative;
+            background-color: beige;
+            height:2000px;
+        }
+        .img1{
+            /*position relatve changes to the current window accordingly but the gap is entacted which is of the poster1*/
+            /*position relative provides thgehtop,left,right,bottom property*/
+            position: relative;
+            left: 20px;
+           top:30px;
+        }
+        .img2{
+            /*position absolute works on the overlapping anything it works on the bais of the nearest ancestor means it you want ot make any tag as a abslute then you have to makes the nearest tag as an relative*/
+        position: absolute;
+            top:30px;
+        right:10px;
+
+        }
+        .img3{
+            position:fixed; 
+            /* it is fixed according to the current window sizes */
+
+        }
+        .img4{
+            position: sticky;
+            left:300px;
+            top:200px;
+        }
+        .box{
+            background-color: aquamarine;
+            height:5000px;
+        }
+    </style>
+</head>
+<body>
+    <!--by default the position is static-->
+    <div class="contaniner">
+        <img src="pexels-kevin-ku-577585.jpg" alt="poster1" width="300px" height="300px" class="img1">
+        <img src="pexels-pixabay-270366.jpg" alt="poster2" width="300px" height="300px" class="img2">
+        <img src="istockphoto-1500238408-1024x1024.jpg" alt="poster2" width="300px" height="300px" class="img3">
+        <img src="istockphoto-1669453534-1024x1024.jpg" alt="poster2" width="300px" height="300px" class="img4">
+
+    </div>
+    <div class="box"></div>
+</body>
+</html>

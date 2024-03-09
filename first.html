@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First</title>
+    <!-- internal css -->
+    <!-- whenever we use the !important than that got more preference over the inline also -->
+<!-- <style> 
+    h1{
+        color:cornflowerblue;
+    }
+    p{
+        background-color: yellow !important; 
+        color:green;
+    }
+</style> -->
+
+<!-- style using hte id selector -->
+<style>
+#para1{
+    color:blueviolet; /* hash it used to sepecifically do the styling in the that parti. id*/
+}
+
+/* more than one element can jave the same class but not more than one element can have the single id */
+.container1{
+color:darkblue;
+}
+.container2{
+color:green;
+background-color: yellow;
+}
+
+/* grouping selectors */
+p,article,h1{
+    background-color: blue;
+}
+
+</style>
+</head>
+<body>
+    <h1>paragraph writing</h1>
+    <!-- inline has more preference -->
+    <!-- <h1 style="background-color: chartreuse;">Welcome to the Coders World</h1> inline CSS
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, quo quasi! Ullam a nesciunt natus numquam eius, quod quos fugiat.</p>
+
+    <p style="background-color: orange;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni dignissimos incidunt eligendi at sed, praesentium quos, dolor expedita aliquam maiores iusto? Facilis in ex, cum, omnis quam alias ratione et soluta dolorum voluptatibus ad labore sunt deleniti excepturi quidem atque dolore saepe! Provident quod explicabo sunt, quibusdam odit voluptatibus voluptates.</p> --> 
+    <p id="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, inventore veniam accusantium porro itaque non nobis tempore mollitia velit? Quam amet voluptates beatae cupiditate ex. Veritatis sequi ratione eveniet deleniti!</p> 
+ <p class="container1"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima, magni?</p>
+    <p class="container1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam dolorum veniam consectetur nemo? Ab saepe quia sint a voluptatum laudantium minima, sed pariatur soluta. Fugiat impedit voluptatibus omnis, quidem doloremque nihil</p> ad at? Mollitia, earum quae accusamus unde harum maiores delectus iste. A nam voluptas magni dignissimos eveniet rerum quaerat iure sequi, aspernatur neque veritatis laboriosam atque nostrum accusantium placeat quisquam necessitatibus autem reprehenderit saepe? Repellendus aperiam ipsum facere fugit! Autem nostrum et earum molestiae maxime omnis ipsam possimus reiciendis fugit corrupti dolorum deserunt modi error iure sint, sequi laboriosam quos minus iste aliquid quidem accusantium? Hic quod nisi soluta!</p>
+
+
+    <p class="container2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium aut dolores, sunt laborum dignissimos accusamus consectetur voluptatibus, tempore earum tempora quia incidunt magnam quas corporis fugit excepturi exercitationem quibusdam obcaecati!</p>
+
+<article>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure molestias quae voluptate.</article>
+</body>
+</html>

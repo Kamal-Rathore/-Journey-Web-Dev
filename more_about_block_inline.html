@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>more about block and inline</title>
+    <style>
+        .container{
+            background-color: blueviolet;
+            display: inline;/*if we write the display inline in the div beacuse div is bydefault block so it doesnot the customize the height and wdth given by the us .*/
+            width: 30px;
+            height: 20px;
+
+        }
+        .container1{
+            display: block; /*by defualt span is inline so it doesnot display the background-color beacause backgropund-clor is applied only on the block elements so we made it the block*/
+           width: fit-content; /*it renders thecustomize height and the width because e made it the block */
+           height: fit-content;
+           margin-left: 10px;
+           padding: 5%;
+            background-color:royalblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia, doloribus!</p>
+    </div>
+    <span class="container1">
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla omnis quidem earum dicta similique dolorum nostrum cupiditate vero velit tenetur!</p>
+    </span>
+</body>
+</html>

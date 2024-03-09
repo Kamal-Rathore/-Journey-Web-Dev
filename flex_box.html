@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex_box</title>
+    <style>
+        .container{
+            background-color:beige;
+            height: 500px;
+            width: 200px;
+            margin:10px;
+            padding:10px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content:space-evenly; 
+            align-items:flex-end; /* by default align items is stretch*/
+        }
+        /* by default display is in column wise but when u write display flex it gives the row wise */
+        /* when you row reverseor column reverse it reverses the direction of the box*/
+        #box1{
+background-color: aquamarine;
+height: 200px;
+width:200px;
+flex-shrink: 4; /*shrink ata 4x speed than other*/
+/*flex-basis used to the the set the width of particular flex*/
+        }
+        #box2{
+background-color: blue;
+height: 200px;
+width:200px;
+
+        }
+        #box3{
+background-color: brown;
+height: 200px;
+width:200px;
+        }
+        #box4{
+background-color: orange;
+height: 200px;
+width:200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="box1"></div>
+        <div class="box" id="box2"></div>
+        <div class="box" id="box3"></div>
+        <div class="box" id="box4"></div>
+    </div>
+
+    <!-- when flex-direction is columns then justify-content handles the vertical axis and align-items handles the horizontal axis and  when flex-direction is row then justify-content handles the horizontal axis or align-items handles the vertical axis -->
+</body>
+</html>
